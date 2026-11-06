@@ -1,0 +1,294 @@
+{
+  "nome": "Academia",
+  "barreiras": [],
+  "subsetores": [
+    {
+      "nome": "Receção e Espera",
+      "barreiras": [],
+      "subsetores": [
+        {
+          "nome": "Entrada",
+          "barreiras": [
+            {
+              "caminho": "Academia > Receção e Espera > Entrada",
+              "codigo": "ACA-REC-01",
+              "ambiente": "Entrada",
+              "tipo": "porta_estreita",
+              "descricao": "Catraca rotativa sem passagem alternativa lateral",
+              "medida": 0.0,
+              "unidade": "cm",
+              "referencia_norma": "80",
+              "gravidade": 5,
+              "pessoas_dia": 200,
+              "custo": 3500.0,
+              "intervencao": "Instalação de cancela acessível",
+              "coletado_por": "Nickollas",
+              "data_coleta": "2026-10-15"
+            },
+            {
+              "caminho": "Academia > Receção e Espera > Entrada",
+              "codigo": "ACA-REC-02",
+              "ambiente": "Entrada",
+              "tipo": "balcao_alto",
+              "descricao": "Balcão de atendimento com 110 cm sem trecho rebaixado",
+              "medida": 110.0,
+              "unidade": "cm",
+              "referencia_norma": "90",
+              "gravidade": 4,
+              "pessoas_dia": 200,
+              "custo": 1200.0,
+              "intervencao": "Rebaixamento de trecho do balcão",
+              "coletado_por": "Felipe",
+              "data_coleta": "2026-10-15"
+            },
+            {
+              "caminho": "Academia > Receção e Espera > Entrada",
+              "codigo": "ACA-REC-03",
+              "ambiente": "Entrada",
+              "tipo": "piso_irregular",
+              "descricao": "Tapete solto criando desnível no pavimento",
+              "medida": 2.0,
+              "unidade": "cm",
+              "referencia_norma": "0.5",
+              "gravidade": 2,
+              "pessoas_dia": 200,
+              "custo": 0.0,
+              "intervencao": "Fixação ou remoção do tapete",
+              "coletado_por": "Felipe",
+              "data_coleta": "2026-10-15"
+            },
+            {
+              "caminho": "Academia > Receção e Espera > Entrada",
+              "codigo": "ACA-REC-04",
+              "ambiente": "Entrada",
+              "tipo": "sinalizacao_ausente",
+              "descricao": "Porta de vidro sem faixa de contraste visual",
+              "medida": 0.0,
+              "unidade": "cm",
+              "referencia_norma": "1",
+              "gravidade": 3,
+              "pessoas_dia": 200,
+              "custo": 150.0,
+              "intervencao": "Aplicação de faixas adesivas de sinalização",
+              "coletado_por": "Nickollas",
+              "data_coleta": "2026-10-15"
+            }
+          ],
+          "subsetores": []
+        },
+        {
+          "nome": "Área de Espera",
+          "barreiras": [
+            {
+              "caminho": "Academia > Receção e Espera > Área de Espera",
+              "codigo": "ACA-ESP-05",
+              "ambiente": "Área de Espera",
+              "tipo": "mobiliario_inadequado",
+              "descricao": "Poltronas de espera sem braços de apoio lateral",
+              "medida": 0.0,
+              "unidade": "cm",
+              "referencia_norma": "70",
+              "gravidade": 2,
+              "pessoas_dia": 50,
+              "custo": 1600.0,
+              "intervencao": "Substituição por poltronas com apoio",
+              "coletado_por": "Nickollas",
+              "data_coleta": "2026-10-15"
+            }
+          ],
+          "subsetores": []
+        }
+      ]
+    },
+    {
+      "nome": "Acessos e Sanitários",
+      "barreiras": [],
+      "subsetores": [
+        {
+          "nome": "Escadaria Principal",
+          "barreiras": [
+            {
+              "caminho": "Academia > Acessos e Sanitários > Escadaria Principal",
+              "codigo": "ACA-ESC-06",
+              "ambiente": "Escadaria Principal",
+              "tipo": "elevador_ausente",
+              "descricao": "Ausência de elevador ou rampa para o piso superior",
+              "medida": 0.0,
+              "unidade": "m",
+              "referencia_norma": "1",
+              "gravidade": 5,
+              "pessoas_dia": 200,
+              "custo": 45000.0,
+              "intervencao": "Instalação de plataforma elevatória cabinada",
+              "coletado_por": "Felipe",
+              "data_coleta": "2026-10-15"
+            },
+            {
+              "caminho": "Academia > Acessos e Sanitários > Escadaria Principal",
+              "codigo": "ACA-ESC-07",
+              "ambiente": "Escadaria Principal",
+              "tipo": "ausencia_corrimao",
+              "descricao": "Corrimão instalado apenas do lado direito da escada",
+              "medida": 0.0,
+              "unidade": "cm",
+              "referencia_norma": "1",
+              "gravidade": 3,
+              "pessoas_dia": 200,
+              "custo": 800.0,
+              "intervencao": "Instalação de corrimão no lado esquerdo",
+              "coletado_por": "Nickollas",
+              "data_coleta": "2026-10-15"
+            },
+            {
+              "caminho": "Academia > Acessos e Sanitários > Escadaria Principal",
+              "codigo": "ACA-ESC-08",
+              "ambiente": "Escadaria Principal",
+              "tipo": "ausencia_corrimao",
+              "descricao": "Ausência de corrimão inferior a 70 cm de altura",
+              "medida": 92.0,
+              "unidade": "cm",
+              "referencia_norma": "70",
+              "gravidade": 3,
+              "pessoas_dia": 200,
+              "custo": 800.0,
+              "intervencao": "Instalação de barra dupla de corrimão",
+              "coletado_por": "Nickollas",
+              "data_coleta": "2026-10-15"
+            },
+            {
+              "caminho": "Academia > Acessos e Sanitários > Escadaria Principal",
+              "codigo": "ACA-ESC-09",
+              "ambiente": "Escadaria Principal",
+              "tipo": "sinalizacao_ausente",
+              "descricao": "Ausência de piso tátil de alerta nos degraus metálicos",
+              "medida": 0.0,
+              "unidade": "cm",
+              "referencia_norma": "1",
+              "gravidade": 4,
+              "pessoas_dia": 200,
+              "custo": 300.0,
+              "intervencao": "Instalação de piso tátil de alerta",
+              "coletado_por": "Felipe",
+              "data_coleta": "2026-10-15"
+            }
+          ],
+          "subsetores": []
+        },
+        {
+          "nome": "Lavatório e WC",
+          "barreiras": [
+            {
+              "caminho": "Academia > Acessos e Sanitários > Lavatório e WC",
+              "codigo": "ACA-SAN-10",
+              "ambiente": "Lavatório",
+              "tipo": "mobiliario_inadequado",
+              "descricao": "Lavatório em taça elevando o uso para 95 cm de altura",
+              "medida": 95.0,
+              "unidade": "cm",
+              "referencia_norma": "80",
+              "gravidade": 4,
+              "pessoas_dia": 200,
+              "custo": 600.0,
+              "intervencao": "Troca por lavatório embutido acessível",
+              "coletado_por": "Felipe",
+              "data_coleta": "2026-10-15"
+            },
+            {
+              "caminho": "Academia > Acessos e Sanitários > Lavatório e WC",
+              "codigo": "ACA-SAN-11",
+              "ambiente": "Lavatório",
+              "tipo": "mobiliario_inadequado",
+              "descricao": "Espelho suspenso por corda com base a 120 cm do chão",
+              "medida": 120.0,
+              "unidade": "cm",
+              "referencia_norma": "90",
+              "gravidade": 3,
+              "pessoas_dia": 200,
+              "custo": 100.0,
+              "intervencao": "Reposicionamento do espelho na parede",
+              "coletado_por": "Felipe",
+              "data_coleta": "2026-10-15"
+            },
+            {
+              "caminho": "Academia > Acessos e Sanitários > Lavatório e WC",
+              "codigo": "ACA-SAN-12",
+              "ambiente": "Lavatório",
+              "tipo": "banheiro_inadequado",
+              "descricao": "Sifão metálico exposto sem proteção térmica",
+              "medida": 0.0,
+              "unidade": "cm",
+              "referencia_norma": "1",
+              "gravidade": 4,
+              "pessoas_dia": 200,
+              "custo": 150.0,
+              "intervencao": "Instalação de proteção no sifão",
+              "coletado_por": "Nickollas",
+              "data_coleta": "2026-10-15"
+            },
+            {
+              "caminho": "Academia > Acessos e Sanitários > Lavatório e WC",
+              "codigo": "ACA-SAN-13",
+              "ambiente": "Lavatório",
+              "tipo": "circulacao_estreita",
+              "descricao": "Corrente suspensa bloqueando a passagem de cadeiras de rodas",
+              "medida": 60.0,
+              "unidade": "cm",
+              "referencia_norma": "90",
+              "gravidade": 4,
+              "pessoas_dia": 200,
+              "custo": 0.0,
+              "intervencao": "Remoção da corrente limitadora",
+              "coletado_por": "Felipe",
+              "data_coleta": "2026-10-15"
+            },
+            {
+              "caminho": "Academia > Acessos e Sanitários > Lavatório e WC",
+              "codigo": "ACA-SAN-14",
+              "ambiente": "Lavatório",
+              "tipo": "porta_estreita",
+              "descricao": "Porta de fole que reduz o vão livre de passagem para 65 cm",
+              "medida": 65.0,
+              "unidade": "cm",
+              "referencia_norma": "80",
+              "gravidade": 5,
+              "pessoas_dia": 200,
+              "custo": 900.0,
+              "intervencao": "Substituição por porta de correr acessível",
+              "coletado_por": "Nickollas",
+              "data_coleta": "2026-10-15"
+            }
+          ],
+          "subsetores": []
+        }
+      ]
+    },
+    {
+      "nome": "Área de Treino",
+      "barreiras": [],
+      "subsetores": [
+        {
+          "nome": "Musculação",
+          "barreiras": [
+            {
+              "caminho": "Academia > Área de Treino > Musculação",
+              "codigo": "ACA-TRE-15",
+              "ambiente": "Musculação",
+              "tipo": "circulacao_estreita",
+              "descricao": "Corredor entre as máquinas de perna com apenas 75 cm",
+              "medida": 75.0,
+              "unidade": "cm",
+              "referencia_norma": "90",
+              "gravidade": 4,
+              "pessoas_dia": 200,
+              "custo": 0.0,
+              "intervencao": "Reorganização do layout dos equipamentos",
+              "coletado_por": "Felipe",
+              "data_coleta": "2026-10-15"
+            }
+          ],
+          "subsetores": []
+        }
+      ]
+    }
+  ]
+}
